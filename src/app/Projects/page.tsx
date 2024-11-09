@@ -1,3 +1,5 @@
+import Image from 'next/image';  // Import Image component from Next.js
+
 export default function Projects() {
   return (
     <div className="min-h-screen bg-white px-4 md:px-10">
@@ -11,9 +13,11 @@ export default function Projects() {
         {/* Project Card 1 */}
         <div className="bg-[#e7e7ad] shadow-md rounded-lg p-4 md:p-6">
           <h2 className="text-xl md:text-2xl font-semibold text-[#02066f]">Project 1</h2>
-          <img
-            src="/countdown timer.jpg"
-            alt="Countdown Timer Project"
+          <Image
+            src="/countdown timer.jpg"  // Path to the image
+            alt="Countdown Timer Project"  // Alt text for accessibility
+            width={500}  // Set width for optimization
+            height={300}  // Set height for optimization
             className="w-full h-auto mt-4 rounded-lg"
           />
           <p className="mt-4 text-[#02066f] font-extrabold">Description Of Project</p>
@@ -25,9 +29,11 @@ export default function Projects() {
         {/* Project Card 2 */}
         <div className="bg-[#e7e7ad] shadow-md rounded-lg p-4 md:p-6">
           <h2 className="text-xl md:text-2xl font-semibold text-[#02066f]">Project 2</h2>
-          <img
-            src="/Weather wedget.jpg"
-            alt="Weather Widget Project"
+          <Image
+            src="/Weather wedget.jpg"  // Path to the image
+            alt="Weather Widget Project"  // Alt text for accessibility
+            width={500}  // Set width for optimization
+            height={300}  // Set height for optimization
             className="w-full h-auto mt-4 rounded-lg"
           />
           <p className="mt-4 text-[#02066f] font-extrabold">Description Of Project</p>
@@ -39,9 +45,11 @@ export default function Projects() {
         {/* Project Card 3 */}
         <div className="bg-[#e7e7ad] shadow-md rounded-lg p-4 md:p-6">
           <h2 className="text-xl md:text-2xl font-semibold text-[#02066f]">Project 3</h2>
-          <img
-            src="/admission form.jpg"
-            alt="Admission Form Project"
+          <Image
+            src="/admission form.jpg"  // Path to the image
+            alt="Admission Form Project"  // Alt text for accessibility
+            width={500}  // Set width for optimization
+            height={300}  // Set height for optimization
             className="w-full h-auto mt-4 rounded-lg"
           />
           <p className="mt-4 text-[#02066f] font-extrabold">Description Of Project</p>

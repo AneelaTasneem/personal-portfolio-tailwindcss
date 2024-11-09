@@ -1,9 +1,11 @@
+import Image from 'next/image';  // Import Image component from Next.js
+
 export default function Home() {
   return (
     <div className="flex flex-col md:flex-row justify-between items-center p-10 md:p-20 bg-white">
       {/* Image Section */}
       <div className="flex-1 text-center mb-6 md:mb-0">
-        <img 
+        <Image 
           src="/fun.png" 
           alt="Image" 
           width={500} 

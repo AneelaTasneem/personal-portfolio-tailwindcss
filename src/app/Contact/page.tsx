@@ -1,3 +1,5 @@
+import Image from 'next/image';  // Import Image component from Next.js
+
 export default function Contact() {
   return (
     <div className="min-h-screen bg-white flex flex-col items-center justify-center px-4">
@@ -18,30 +20,36 @@ export default function Contact() {
         <div className="space-y-5">
           {/* Phone */}
           <div className="flex items-center">
-            <img
-              src="/whatsapp (1).png"
-              alt="WhatsApp Icon"
-              className="mr-3 h-7 w-7"
+            <Image
+              src="/whatsapp (1).png"  // Path to the image
+              alt="WhatsApp Icon"  // Alt text for accessibility
+              width={28}  // Set width for optimization
+              height={28}  // Set height for optimization
+              className="mr-3"
             />
             <p className="text-lg">Phone: +1 (123) 456-7890</p>
           </div>
 
           {/* Email */}
           <div className="flex items-center">
-            <img
-              src="/email.png"
-              alt="Email Icon"
-              className="mr-3 h-7 w-7"
+            <Image
+              src="/email.png"  // Path to the image
+              alt="Email Icon"  // Alt text for accessibility
+              width={28}  // Set width for optimization
+              height={28}  // Set height for optimization
+              className="mr-3"
             />
             <p className="text-lg">Email: contact@yourcompany.com</p>
           </div>
 
           {/* Address */}
           <div className="flex items-center">
-            <img
-              src="/gps.png"
-              alt="Location Icon"
-              className="mr-3 h-7 w-7"
+            <Image
+              src="/gps.png"  // Path to the image
+              alt="Location Icon"  // Alt text for accessibility
+              width={28}  // Set width for optimization
+              height={28}  // Set height for optimization
+              className="mr-3"
             />
             <p className="text-lg">Address: 1234 Elm St, City, Country</p>
           </div>

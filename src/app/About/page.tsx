@@ -18,7 +18,7 @@ export default function About() {
           My Qualification
         </h2>
         <ul className="list-disc pl-4 md:pl-5 space-y-2 text-sm md:text-base">
-          <li>Bachelor's Degree in Micro-Biology</li>
+          <li>Bachelors Degree in Micro-Biology</li>
           <li>Certificate in CIT</li>
           <li>Currently learning web development with Next.js and Tailwind CSS</li>
         </ul>
