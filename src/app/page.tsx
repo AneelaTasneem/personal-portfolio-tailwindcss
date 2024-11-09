@@ -15,10 +15,10 @@ export default function Home() {
       {/* Text Section */}
       <div className="flex-1 pr-5 text-center md:text-left">
         <h1 className="text-3xl md:text-4xl font-bold mb-4 text-[#02066f]">
-          Hi, I'm ANEELA TASNEEM
+          Hi, I am ANEELA TASNEEM
         </h1>
         <p className="text-base md:text-lg">
-          I'm a <span className="text-[#02066f] font-extrabold">FRONTEND DEVELOPER</span>
+          I am a <span className="text-[#02066f] font-extrabold">FRONTEND DEVELOPER</span>
         </p>
       </div>
     </div>

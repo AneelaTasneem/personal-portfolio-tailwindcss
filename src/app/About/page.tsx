@@ -8,8 +8,8 @@ export default function About() {
 
       {/* Introduction Text */}
       <p className="text-base md:text-lg text-center mb-8 md:mb-10">
-        Hello! I'm <span className="text-[#02066f] font-extrabold">ANEELA TASNEEM</span>,<br />
-        It's is my first project using Next.js and Tailwind css. I'm excited to share a little about myself.
+        Hello! I am <span className="text-[#02066f] font-extrabold">ANEELA TASNEEM</span>,<br />
+        It is my first project using Next.js and Tailwind css. I am excited to share a little about myself.
       </p>
 
       {/* Qualification Section */}

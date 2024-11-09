@@ -11,7 +11,7 @@ export default function Contact() {
         <h2 className="text-2xl font-semibold mb-4 text-[#02066f]">Get In Touch</h2>
 
         <p className="mb-6 text-sm md:text-base text-justify">
-          I'd love to hear from you! Whether you have a question, feedback, or just want to say hi, feel free to reach out to me through any of the methods below.
+          I would love to hear from you! Whether you have a question, feedback, or just want to say hi, feel free to reach out to me through any of the methods below.
         </p>
 
         {/* Contact Details */}
